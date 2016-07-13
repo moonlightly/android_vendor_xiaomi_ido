@@ -16,4 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 
+PRODUCT_PACKAGES += \
+    libtime_genoff
+    
 $(call inherit-product, vendor/xiaomi/ido/ido-vendor-blobs.mk)
