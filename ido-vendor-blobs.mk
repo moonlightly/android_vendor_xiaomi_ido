@@ -48,6 +48,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cardapp.b00:system/etc/firmware/cardapp.b00 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cardapp.b01:system/etc/firmware/cardapp.b01 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cardapp.b02:system/etc/firmware/cardapp.b02 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cardapp.b03:system/etc/firmware/cardapp.b03 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/cardapp.mdt:system/etc/firmware/cardapp.mdt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
+    $(LOCAL_PATH)/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
+    $(LOCAL_PATH)/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
+    $(LOCAL_PATH)/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
