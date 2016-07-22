@@ -1,6 +1,44 @@
 LOCAL_PATH := $(LOCAL_PATH)
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    $(LOCAL_PATH)/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
+    $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
+    $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
+    $(LOCAL_PATH)/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    $(LOCAL_PATH)/proprietary/bin/dpmd:system/bin/dpmd \
+    $(LOCAL_PATH)/proprietary/bin/dun-server:system/bin/dun-server \
+    $(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
+    $(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
+    $(LOCAL_PATH)/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    $(LOCAL_PATH)/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
+    $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    $(LOCAL_PATH)/proprietary/bin/imscmservice:system/bin/imscmservice \
+    $(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    $(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    $(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
+    $(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    $(LOCAL_PATH)/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
+    $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
+    $(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
+    $(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
+    $(LOCAL_PATH)/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
+    $(LOCAL_PATH)/proprietary/bin/radish:system/bin/radish \
+    $(LOCAL_PATH)/proprietary/bin/rfs_access:system/bin/rfs_access \
+    $(LOCAL_PATH)/proprietary/bin/rmnetcli:system/bin/rmnetcli \
+    $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    $(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
+    $(LOCAL_PATH)/proprietary/bin/SensorCali:system/bin/SensorCali \
+    $(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
+    $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub \
+    $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    $(LOCAL_PATH)/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
+    $(LOCAL_PATH)/proprietary/bin/vm_bms:system/bin/vm_bms \
+    $(LOCAL_PATH)/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     $(LOCAL_PATH)/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
