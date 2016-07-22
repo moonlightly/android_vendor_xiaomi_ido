@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     $(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
     $(LOCAL_PATH)/proprietary/bin/SensorCali:system/bin/SensorCali \
-    $(LOCAL_PATH)/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub \
     $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
@@ -82,4 +81,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/row_mcfg_sw.mbn:system/etc/firmware/modem_config/row_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/ytl_mcfg_sw.mbn:system/etc/firmware/modem_config/ytl_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/wcd9306/wcd9306_anc.bin:system/etc/firmware/wcd9306/wcd9306_anc.bin \
-    $(LOCAL_PATH)/proprietary/etc/firmware/wcd9306/wcd9306_mbhc.bin:system/etc/firmware/wcd9306/wcd9306_mbhc.bin
+    $(LOCAL_PATH)/proprietary/etc/firmware/wcd9306/wcd9306_mbhc.bin:system/etc/firmware/wcd9306/wcd9306_mbhc.bin \
+    $(LOCAL_PATH)/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine
