@@ -115,5 +115,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/cu_mcfg_sw.mbn:system/etc/firmware/modem_config/cu_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/row_mcfg_sw.mbn:system/etc/firmware/modem_config/row_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/ytl_mcfg_sw.mbn:system/etc/firmware/modem_config/ytl_mcfg_sw.mbn \
+    $(LOCAL_PATH)/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
+    $(LOCAL_PATH)/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
+    $(LOCAL_PATH)/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     $(LOCAL_PATH)/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     $(LOCAL_PATH)/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine
