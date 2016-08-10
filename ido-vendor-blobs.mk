@@ -2,42 +2,43 @@ LOCAL_PATH := $(LOCAL_PATH)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    $(LOCAL_PATH)/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
-    $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
-    $(LOCAL_PATH)/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    $(LOCAL_PATH)/proprietary/bin/dpmd:system/bin/dpmd \
-    $(LOCAL_PATH)/proprietary/bin/dun-server:system/bin/dun-server \
     $(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
     $(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    $(LOCAL_PATH)/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    $(LOCAL_PATH)/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    $(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     $(LOCAL_PATH)/proprietary/bin/imscmservice:system/bin/imscmservice \
     $(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     $(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    $(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
+    $(LOCAL_PATH)/proprietary/bin/location-mq:system/bin/location-mq \
+    $(LOCAL_PATH)/proprietary/bin/lowi-server-mq:system/bin/lowi-server-mq \
     $(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
+    $(LOCAL_PATH)/proprietary/bin/nl_listener:system/bin/nl_listener \
+    $(LOCAL_PATH)/proprietary/bin/pm-service:system/bin/pm-service \
     $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
+    $(LOCAL_PATH)/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     $(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
+    $(LOCAL_PATH)/proprietary/bin/qemud:system/bin/qemud \
     $(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
-    $(LOCAL_PATH)/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     $(LOCAL_PATH)/proprietary/bin/radish:system/bin/radish \
     $(LOCAL_PATH)/proprietary/bin/rfs_access:system/bin/rfs_access \
     $(LOCAL_PATH)/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    $(LOCAL_PATH)/proprietary/bin/sapd:system/bin/sapd \
     $(LOCAL_PATH)/proprietary/bin/SensorCali:system/bin/SensorCali \
+    $(LOCAL_PATH)/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
+    $(LOCAL_PATH)/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub \
     $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    $(LOCAL_PATH)/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
     $(LOCAL_PATH)/proprietary/bin/vm_bms:system/bin/vm_bms \
     $(LOCAL_PATH)/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
+    $(LOCAL_PATH)/proprietary/bin/wfdservice:system/bin/wfdservice \
+    $(LOCAL_PATH)/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    $(LOCAL_PATH)/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     $(LOCAL_PATH)/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     $(LOCAL_PATH)/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     $(LOCAL_PATH)/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
@@ -53,6 +54,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
+    $(LOCAL_PATH)/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
+    $(LOCAL_PATH)/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
@@ -128,7 +131,24 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/row_mcfg_sw.mbn:system/etc/firmware/modem_config/row_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/ytl_mcfg_sw.mbn:system/etc/firmware/modem_config/ytl_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    $(LOCAL_PATH)/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    $(LOCAL_PATH)/proprietary/lib/fpc_fingerprint_hal.so:system/lib/fpc_fingerprint_hal.so \
+    $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    $(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    $(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    $(LOCAL_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    $(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    $(LOCAL_PATH)/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+    $(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    $(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    $(LOCAL_PATH)/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
+    $(LOCAL_PATH)/proprietary/lib64/fpc_fingerprint_hal.so:system/lib64/fpc_fingerprint_hal.so \
+    $(LOCAL_PATH)/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
+    $(LOCAL_PATH)/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    $(LOCAL_PATH)/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    $(LOCAL_PATH)/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
+    $(LOCAL_PATH)/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
+    $(LOCAL_PATH)/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
     $(LOCAL_PATH)/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
@@ -143,52 +163,273 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so.so:system/vendor/lib/libTimeService.so.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libcamerahandler_jni.so:system/vendor/lib/libcamerahandler_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libcsvt_jni.so:system/vendor/lib/libcsvt_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdmjni.so:system/vendor/lib/libdmjni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libhbtparm.so:system/vendor/lib/libhbtparm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libhbtptouchmgrjni.so:system/vendor/lib/libhbtptouchmgrjni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libomx_amrdec_sharedlibrary.so:system/vendor/lib/libomx_amrdec_sharedlibrary.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libomx_amrenc_sharedlibrary.so:system/vendor/lib/libomx_amrenc_sharedlibrary.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libomx_sharedlibrary.so:system/vendor/lib/libomx_sharedlibrary.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqcom_omx.so:system/vendor/lib/libqcom_omx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libscve_mv.so:system/vendor/lib/libscve_mv.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libvt_engine.so:system/vendor/lib/libvt_engine.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libadreno_utils.so:system/vendor/lib64/libadreno_utils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libDivxDrm.so:system/vendor/lib64/libDivxDrm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libExtendedExtractor.so:system/vendor/lib64/libExtendedExtractor.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhandbioalgojni.so:system/vendor/lib64/libhandbioalgojni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhandbioalgo.so:system/vendor/lib64/libhandbioalgo.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhbtparm.so:system/vendor/lib64/libhbtparm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhbtpclient.so:system/vendor/lib64/libhbtpclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhbtpfrmwk.so:system/vendor/lib64/libhbtpfrmwk.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhbtptouchmgrjni.so:system/vendor/lib64/libhbtptouchmgrjni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libmasc.so:system/vendor/lib64/libmasc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi_cci.so:system/vendor/lib64/libqmi_cci.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqmi.so:system/vendor/lib64/libqmi.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsc-a2xx.so:system/vendor/lib64/libsc-a2xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsecureuisvc_jni.so:system/vendor/lib64/libsecureuisvc_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libSHIMDivxDrm.so:system/vendor/lib64/libSHIMDivxDrm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwbc_jni.so:system/vendor/lib64/libwbc_jni.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdmmsink.so:system/vendor/lib64/libwfdmmsink.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdmmsrc.so:system/vendor/lib64/libwfdmmsrc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdmmutils.so:system/vendor/lib64/libwfdmmutils.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdnative.so:system/vendor/lib64/libwfdnative.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdrtsp.so:system/vendor/lib64/libwfdrtsp.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdservice.so:system/vendor/lib64/libwfdservice.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfdsm.so:system/vendor/lib64/libwfdsm.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfduibcinterface.so:system/vendor/lib64/libwfduibcinterface.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfduibcsink.so:system/vendor/lib64/libwfduibcsink.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
+    vendor/xiaomi/ido/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
