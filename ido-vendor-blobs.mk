@@ -214,7 +214,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so.so:system/vendor/lib/libgsl.so.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtparm.so:system/vendor/lib/libhbtparm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
@@ -225,7 +225,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-glnext.so.so:system/vendor/lib/libllvm-glnext.so.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
