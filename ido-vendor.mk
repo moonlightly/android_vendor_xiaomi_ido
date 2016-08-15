@@ -20,6 +20,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location
 
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    libtime_genoff \
     TimeService
 $(call inherit-product, vendor/xiaomi/ido/ido-vendor-blobs.mk)
