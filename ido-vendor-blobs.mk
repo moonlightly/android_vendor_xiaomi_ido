@@ -149,9 +149,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     $(LOCAL_PATH)/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     $(LOCAL_PATH)/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     $(LOCAL_PATH)/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
@@ -172,11 +170,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/sound_trigger.primary.msm8916.so:system/vendor/lib/hw/sound_trigger.primary.msm8916.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
@@ -191,6 +197,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcamerahandler_jni.so:system/vendor/lib/libcamerahandler_jni.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
@@ -208,17 +216,22 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libextendedremotedisplay.so:system/vendor/lib/libextendedremotedisplay.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtparm.so:system/vendor/lib/libhbtparm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtptouchmgrjni.so:system/vendor/lib/libhbtptouchmgrjni.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
@@ -230,6 +243,65 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_gc2355_8916.so:system/vendor/lib/libmmcamera_gc2355_8916.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imx219_q8n13a.so:system/vendor/lib/libmmcamera_imx219_q8n13a.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov13850_eeprom.so:system/vendor/lib/libmmcamera_ov13850_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov13853_eeprom.so:system/vendor/lib/libmmcamera_ov13853_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov13853_q13853a.so:system/vendor/lib/libmmcamera_ov13853_q13853a.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov2680_skuhf.so:system/vendor/lib/libmmcamera_ov2680_skuhf.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov5670_86001.so:system/vendor/lib/libmmcamera_ov5670_86001.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov5670_a11.so:system/vendor/lib/libmmcamera_ov5670_a11.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov5670_eeprom.so:system/vendor/lib/libmmcamera_ov5670_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov8865_a11_eeprom.so:system/vendor/lib/libmmcamera_ov8865_a11_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov8865_a11.so:system/vendor/lib/libmmcamera_ov8865_a11.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3h7_8916.so:system/vendor/lib/libmmcamera_s5k3h7_8916.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3h7_eeprom.so:system/vendor/lib/libmmcamera_s5k3h7_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3l2.so:system/vendor/lib/libmmcamera_s5k3l2.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3l8_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k5e8_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k5e8.so:system/vendor/lib/libmmcamera_s5k5e8.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sp2508.so:system/vendor/lib/libmmcamera_sp2508.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so:system/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmasc.so:system/vendor/lib/libmasc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
@@ -309,8 +381,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -324,6 +402,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libbccQTI.so:system/vendor/lib64/libbccQTI.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
@@ -351,6 +431,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/liblistenjni.so:system/vendor/lib64/liblistenjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
@@ -366,6 +447,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:system/vendor/lib64/libmmcamera2_frame_algorithm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera_gc2355_8916.so:system/vendor/lib64/libmmcamera_gc2355_8916.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera_imx219_q8n13a.so:system/vendor/lib64/libmmcamera_imx219_q8n13a.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera_ov8858.so:system/vendor/lib64/libmmcamera_ov8858.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmmcamera_sp2508.so:system/vendor/lib64/libmmcamera_sp2508.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
@@ -408,6 +496,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libSubSystemShutdown.so:system/vendor/lib64/libSubSystemShutdown.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
@@ -437,277 +526,287 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib64/egl/libESXGLESv1_CM_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:system/vendor/lib64/egl/libESXGLESv2_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:system/vendor/lib64/egl/libGLESv2_adreno.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so:system/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camera.so:system/vendor/lib/libactuator_bu64297_q13v06k_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_bu64297_q13v06k.so:system/vendor/lib/libactuator_bu64297_q13v06k.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so:system/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x.so:system/vendor/lib/libactuator_dw9714_sikao_h2x.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9718s_sunny_a11_camcorder.so:system/vendor/lib/libactuator_dw9718s_sunny_a11_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9718s_sunny_a11_camera.so:system/vendor/lib/libactuator_dw9718s_sunny_a11_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9718s_sunny_a11.so:system/vendor/lib/libactuator_dw9718s_sunny_a11.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9761b_ov13853_camcorder.so:system/vendor/lib/libactuator_dw9761b_ov13853_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9761b_ov13853_camera.so:system/vendor/lib/libactuator_dw9761b_ov13853_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9761b_ov13853.so:system/vendor/lib/libactuator_dw9761b_ov13853.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64244_camcorder.so:system/vendor/lib/libactuator_rohm_bu64244_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64244_camera.so:system/vendor/lib/libactuator_rohm_bu64244_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libactuator_rohm_bu64244.so:system/vendor/lib/libactuator_rohm_bu64244.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libactuator_dw9718s_camcorder.so:system/vendor/lib64/libactuator_dw9718s_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libactuator_dw9718s_camera.so:system/vendor/lib64/libactuator_dw9718s_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libactuator_dw9718s.so:system/vendor/lib64/libactuator_dw9718s.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libactuator_dw9718s_sunny_a11_camcorder.so:system/vendor/lib64/libactuator_dw9718s_sunny_a11_camcorder.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libactuator_dw9718s_sunny_a11_camera.so:system/vendor/lib64/libactuator_dw9718s_sunny_a11_camera.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_imx219_q8n13a_common.so:system/vendor/lib/libchromatix_imx219_q8n13a_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib/libchromatix_imx219_q8n13a_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib/libchromatix_imx219_q8n13a_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:system/vendor/lib/libchromatix_ov13850_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_common.so:system/vendor/lib/libchromatix_ov13853_q13853a_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_default_video.so:system/vendor/lib/libchromatix_ov13853_q13853a_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_hfr_120fps.so:system/vendor/lib/libchromatix_ov13853_q13853a_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_hfr_60fps.so:system/vendor/lib/libchromatix_ov13853_q13853a_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_hfr_90fps.so:system/vendor/lib/libchromatix_ov13853_q13853a_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_preview.so:system/vendor/lib/libchromatix_ov13853_q13853a_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov13853_q13853a_snapshot.so:system/vendor/lib/libchromatix_ov13853_q13853a_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview.so:system/vendor/lib/libchromatix_ov2680_5987fhq_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:system/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_common.so:system/vendor/lib/libchromatix_ov2680_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:system/vendor/lib/libchromatix_ov2680_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_common.so:system/vendor/lib/libchromatix_ov5670_86001_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_default_video.so:system/vendor/lib/libchromatix_ov5670_86001_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_86001_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_86001_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_86001_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_liveshot.so:system/vendor/lib/libchromatix_ov5670_86001_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_preview.so:system/vendor/lib/libchromatix_ov5670_86001_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_snapshot.so:system/vendor/lib/libchromatix_ov5670_86001_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_video_hd.so:system/vendor/lib/libchromatix_ov5670_86001_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_86001_zsl.so:system/vendor/lib/libchromatix_ov5670_86001_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_common.so:system/vendor/lib/libchromatix_ov5670_a11_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_default_video.so:system/vendor/lib/libchromatix_ov5670_a11_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_a11_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_a11_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_a11_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_liveshot.so:system/vendor/lib/libchromatix_ov5670_a11_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_preview.so:system/vendor/lib/libchromatix_ov5670_a11_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_snapshot.so:system/vendor/lib/libchromatix_ov5670_a11_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_common.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_default_video.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_liveshot.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_preview.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_snapshot.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_video_hd.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_zsl.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_video_hd.so:system/vendor/lib/libchromatix_ov5670_a11_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_a11_zsl.so:system/vendor/lib/libchromatix_ov5670_a11_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_common.so:system/vendor/lib/libchromatix_ov8865_a11_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_default_video.so:system/vendor/lib/libchromatix_ov8865_a11_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_a11_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_a11_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_a11_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_liveshot.so:system/vendor/lib/libchromatix_ov8865_a11_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_preview.so:system/vendor/lib/libchromatix_ov8865_a11_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_snapshot.so:system/vendor/lib/libchromatix_ov8865_a11_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_common.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_default_video.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_liveshot.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_preview.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_video_hd.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_zsl.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_video_hd.so:system/vendor/lib/libchromatix_ov8865_a11_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_a11_zsl.so:system/vendor/lib/libchromatix_ov8865_a11_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:system/vendor/lib/libchromatix_ov8865_q8v18a_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_common.so:system/vendor/lib/libchromatix_ov8865_qtech_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_default_video.so:system/vendor/lib/libchromatix_ov8865_qtech_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_qtech_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_qtech_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_qtech_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_liveshot.so:system/vendor/lib/libchromatix_ov8865_qtech_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_preview.so:system/vendor/lib/libchromatix_ov8865_qtech_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_snapshot.so:system/vendor/lib/libchromatix_ov8865_qtech_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_video_hd.so:system/vendor/lib/libchromatix_ov8865_qtech_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_qtech_zsl.so:system/vendor/lib/libchromatix_ov8865_qtech_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_common.so:system/vendor/lib/libchromatix_ov8865_sunny_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_video.so:system/vendor/lib/libchromatix_ov8865_sunny_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_liveshot.so:system/vendor/lib/libchromatix_ov8865_sunny_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_preview.so:system/vendor/lib/libchromatix_ov8865_sunny_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_sunny_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_video_hd.so:system/vendor/lib/libchromatix_ov8865_sunny_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_ov8865_sunny_zsl.so:system/vendor/lib/libchromatix_ov8865_sunny_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3h7_8916_common.so:system/vendor/lib/libchromatix_s5k3h7_8916_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3h7_8916_default_video.so:system/vendor/lib/libchromatix_s5k3h7_8916_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3h7_8916_preview.so:system/vendor/lib/libchromatix_s5k3h7_8916_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so:system/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_common.so:system/vendor/lib/libchromatix_s5k3l2_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_default_video.so:system/vendor/lib/libchromatix_s5k3l2_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l2_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l2_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l2_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_liveshot.so:system/vendor/lib/libchromatix_s5k3l2_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_preview.so:system/vendor/lib/libchromatix_s5k3l2_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_snapshot.so:system/vendor/lib/libchromatix_s5k3l2_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_video_hd.so:system/vendor/lib/libchromatix_s5k3l2_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l2_zsl.so:system/vendor/lib/libchromatix_s5k3l2_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:system/vendor/lib/libchromatix_s5k3l8_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:system/vendor/lib/libchromatix_s5k3l8_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_common.so:system/vendor/lib/libchromatix_s5k3l8_qtech_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_default_video.so:system/vendor/lib/libchromatix_s5k3l8_qtech_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_qtech_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l8_qtech_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l8_qtech_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_preview.so:system/vendor/lib/libchromatix_s5k3l8_qtech_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_qtech_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_common.so:system/vendor/lib/libchromatix_s5k3l8_sunny_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_default_video.so:system/vendor/lib/libchromatix_s5k3l8_sunny_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_sunny_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l8_sunny_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l8_sunny_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_preview.so:system/vendor/lib/libchromatix_s5k3l8_sunny_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_sunny_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:system/vendor/lib/libchromatix_s5k5e8_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_default_video.so:system/vendor/lib/libchromatix_s5k5e8_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_120fps.so:system/vendor/lib/libchromatix_s5k5e8_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_60fps.so:system/vendor/lib/libchromatix_s5k5e8_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_90fps.so:system/vendor/lib/libchromatix_s5k5e8_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_video_hd.so:system/vendor/lib/libchromatix_s5k5e8_video_hd.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_s5k5e8_zsl.so:system/vendor/lib/libchromatix_s5k5e8_zsl.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_sp2508_common.so:system/vendor/lib/libchromatix_sp2508_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib/libchromatix_sp2508_default_video.so:system/vendor/lib/libchromatix_sp2508_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_gc2355_8916_common.so:system/vendor/lib64/libchromatix_gc2355_8916_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_gc2355_8916_default_video.so:system/vendor/lib64/libchromatix_gc2355_8916_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_gc2355_8916_preview.so:system/vendor/lib64/libchromatix_gc2355_8916_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_common.so:system/vendor/lib64/libchromatix_imx219_q8n13a_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib64/libchromatix_imx219_q8n13a_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib64/libchromatix_imx219_q8n13a_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib64/libchromatix_imx219_q8n13a_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib64/libchromatix_imx219_q8n13a_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov13853_q13853a_default_video.so:system/vendor/lib64/libchromatix_ov13853_q13853a_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_common.so:system/vendor/lib64/libchromatix_ov8858_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_default_video.so:system/vendor/lib64/libchromatix_ov8858_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_120fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_60fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_90fps.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_liveshot.so:system/vendor/lib64/libchromatix_ov8858_liveshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_preview.so:system/vendor/lib64/libchromatix_ov8858_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_ov8858_snapshot.so:system/vendor/lib64/libchromatix_ov8858_snapshot.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_sp2508_common.so:system/vendor/lib64/libchromatix_sp2508_common.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_sp2508_default_video.so:system/vendor/lib64/libchromatix_sp2508_default_video.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_sp2508_preview.so:system/vendor/lib64/libchromatix_sp2508_preview.so \
-    vendor/xiaomi/ido/proprietary/vendor/lib64/libchromatix_sp2508_snapshot.so:system/vendor/lib64/libchromatix_sp2508_snapshot.so
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libQTapGLES.so:system/vendor/lib64/egl/libQTapGLES.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:system/vendor/lib64/egl/libRBEGL_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib64/egl/libRBGLESv1_CM_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
+    $(LOCAL_PATH)/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so:system/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camera.so:system/vendor/lib/libactuator_bu64297_q13v06k_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_bu64297_q13v06k.so:system/vendor/lib/libactuator_bu64297_q13v06k.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_13p1ba_h2x.so:system/vendor/lib/libactuator_dw9714_13p1ba_h2x.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_meituosi_h2x.so:system/vendor/lib/libactuator_dw9714_meituosi_h2x.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so:system/vendor/lib/libactuator_dw9714_sikao_h2x_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so:system/vendor/lib/libactuator_dw9714_sikao_h2x_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714_sikao_h2x.so:system/vendor/lib/libactuator_dw9714_sikao_h2x.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9718s_sunny_a11_camcorder.so:system/vendor/lib/libactuator_dw9718s_sunny_a11_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9718s_sunny_a11_camera.so:system/vendor/lib/libactuator_dw9718s_sunny_a11_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9718s_sunny_a11.so:system/vendor/lib/libactuator_dw9718s_sunny_a11.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9761b_ov13853_camcorder.so:system/vendor/lib/libactuator_dw9761b_ov13853_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9761b_ov13853_camera.so:system/vendor/lib/libactuator_dw9761b_ov13853_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9761b_ov13853.so:system/vendor/lib/libactuator_dw9761b_ov13853.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_a11.so:system/vendor/lib/libactuator_rohm_bu64243gwz_a11.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so:system/vendor/lib/libactuator_rohm_bu64243gwz_h2x.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64244_camcorder.so:system/vendor/lib/libactuator_rohm_bu64244_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64244_camera.so:system/vendor/lib/libactuator_rohm_bu64244_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libactuator_rohm_bu64244.so:system/vendor/lib/libactuator_rohm_bu64244.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libactuator_dw9718s_camcorder.so:system/vendor/lib64/libactuator_dw9718s_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libactuator_dw9718s_camera.so:system/vendor/lib64/libactuator_dw9718s_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libactuator_dw9718s.so:system/vendor/lib64/libactuator_dw9718s.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libactuator_dw9718s_sunny_a11_camcorder.so:system/vendor/lib64/libactuator_dw9718s_sunny_a11_camcorder.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libactuator_dw9718s_sunny_a11_camera.so:system/vendor/lib64/libactuator_dw9718s_sunny_a11_camera.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_q8n13a_common.so:system/vendor/lib/libchromatix_imx219_q8n13a_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib/libchromatix_imx219_q8n13a_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib/libchromatix_imx219_q8n13a_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:system/vendor/lib/libchromatix_ov13850_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_preview.so:system/vendor/lib/libchromatix_ov13850_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_common.so:system/vendor/lib/libchromatix_ov13853_q13853a_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_default_video.so:system/vendor/lib/libchromatix_ov13853_q13853a_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_hfr_120fps.so:system/vendor/lib/libchromatix_ov13853_q13853a_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_hfr_60fps.so:system/vendor/lib/libchromatix_ov13853_q13853a_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_hfr_90fps.so:system/vendor/lib/libchromatix_ov13853_q13853a_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_preview.so:system/vendor/lib/libchromatix_ov13853_q13853a_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov13853_q13853a_snapshot.so:system/vendor/lib/libchromatix_ov13853_q13853a_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_preview.so:system/vendor/lib/libchromatix_ov2680_5987fhq_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so:system/vendor/lib/libchromatix_ov2680_5987fhq_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_common.so:system/vendor/lib/libchromatix_ov2680_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:system/vendor/lib/libchromatix_ov2680_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_common.so:system/vendor/lib/libchromatix_ov5670_86001_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_default_video.so:system/vendor/lib/libchromatix_ov5670_86001_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_86001_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_86001_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_86001_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_liveshot.so:system/vendor/lib/libchromatix_ov5670_86001_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_preview.so:system/vendor/lib/libchromatix_ov5670_86001_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_snapshot.so:system/vendor/lib/libchromatix_ov5670_86001_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_video_hd.so:system/vendor/lib/libchromatix_ov5670_86001_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_86001_zsl.so:system/vendor/lib/libchromatix_ov5670_86001_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_common.so:system/vendor/lib/libchromatix_ov5670_a11_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_default_video.so:system/vendor/lib/libchromatix_ov5670_a11_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_a11_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_a11_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_a11_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_liveshot.so:system/vendor/lib/libchromatix_ov5670_a11_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_preview.so:system/vendor/lib/libchromatix_ov5670_a11_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_snapshot.so:system/vendor/lib/libchromatix_ov5670_a11_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_common.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_default_video.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_liveshot.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_preview.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_snapshot.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_video_hd.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_sunny_zsl.so:system/vendor/lib/libchromatix_ov5670_a11_sunny_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_video_hd.so:system/vendor/lib/libchromatix_ov5670_a11_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_a11_zsl.so:system/vendor/lib/libchromatix_ov5670_a11_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_lenplus_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_qtech_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_qtech_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_liveshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_preview.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_sunny_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_sunny_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib/libchromatix_ov8858_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib/libchromatix_ov8858_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_liveshot.so:system/vendor/lib/libchromatix_ov8858_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_preview.so:system/vendor/lib/libchromatix_ov8858_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_common.so:system/vendor/lib/libchromatix_ov8865_a11_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_default_video.so:system/vendor/lib/libchromatix_ov8865_a11_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_a11_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_a11_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_a11_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_liveshot.so:system/vendor/lib/libchromatix_ov8865_a11_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_preview.so:system/vendor/lib/libchromatix_ov8865_a11_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_snapshot.so:system/vendor/lib/libchromatix_ov8865_a11_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_common.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_default_video.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_liveshot.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_preview.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_video_hd.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_sunny_zsl.so:system/vendor/lib/libchromatix_ov8865_a11_sunny_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_video_hd.so:system/vendor/lib/libchromatix_ov8865_a11_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_a11_zsl.so:system/vendor/lib/libchromatix_ov8865_a11_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:system/vendor/lib/libchromatix_ov8865_q8v18a_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_common.so:system/vendor/lib/libchromatix_ov8865_qtech_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_default_video.so:system/vendor/lib/libchromatix_ov8865_qtech_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_qtech_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_qtech_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_qtech_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_liveshot.so:system/vendor/lib/libchromatix_ov8865_qtech_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_preview.so:system/vendor/lib/libchromatix_ov8865_qtech_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_snapshot.so:system/vendor/lib/libchromatix_ov8865_qtech_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_video_hd.so:system/vendor/lib/libchromatix_ov8865_qtech_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_qtech_zsl.so:system/vendor/lib/libchromatix_ov8865_qtech_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_common.so:system/vendor/lib/libchromatix_ov8865_sunny_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_default_video.so:system/vendor/lib/libchromatix_ov8865_sunny_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_sunny_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_liveshot.so:system/vendor/lib/libchromatix_ov8865_sunny_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_preview.so:system/vendor/lib/libchromatix_ov8865_sunny_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_snapshot.so:system/vendor/lib/libchromatix_ov8865_sunny_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_video_hd.so:system/vendor/lib/libchromatix_ov8865_sunny_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_ov8865_sunny_zsl.so:system/vendor/lib/libchromatix_ov8865_sunny_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3h7_8916_common.so:system/vendor/lib/libchromatix_s5k3h7_8916_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3h7_8916_default_video.so:system/vendor/lib/libchromatix_s5k3h7_8916_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3h7_8916_preview.so:system/vendor/lib/libchromatix_s5k3h7_8916_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so:system/vendor/lib/libchromatix_s5k3h7_8916_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_common.so:system/vendor/lib/libchromatix_s5k3l2_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_default_video.so:system/vendor/lib/libchromatix_s5k3l2_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l2_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l2_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l2_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_liveshot.so:system/vendor/lib/libchromatix_s5k3l2_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_preview.so:system/vendor/lib/libchromatix_s5k3l2_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_snapshot.so:system/vendor/lib/libchromatix_s5k3l2_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_video_hd.so:system/vendor/lib/libchromatix_s5k3l2_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l2_zsl.so:system/vendor/lib/libchromatix_s5k3l2_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:system/vendor/lib/libchromatix_s5k3l8_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:system/vendor/lib/libchromatix_s5k3l8_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l8_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:system/vendor/lib/libchromatix_s5k3l8_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_common.so:system/vendor/lib/libchromatix_s5k3l8_qtech_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_default_video.so:system/vendor/lib/libchromatix_s5k3l8_qtech_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_qtech_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l8_qtech_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l8_qtech_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_preview.so:system/vendor/lib/libchromatix_s5k3l8_qtech_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_qtech_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_qtech_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_common.so:system/vendor/lib/libchromatix_s5k3l8_sunny_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_default_video.so:system/vendor/lib/libchromatix_s5k3l8_sunny_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l8_sunny_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l8_sunny_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l8_sunny_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_preview.so:system/vendor/lib/libchromatix_s5k3l8_sunny_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k3l8_sunny_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_sunny_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_common.so:system/vendor/lib/libchromatix_s5k5e8_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_default_video.so:system/vendor/lib/libchromatix_s5k5e8_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_120fps.so:system/vendor/lib/libchromatix_s5k5e8_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_60fps.so:system/vendor/lib/libchromatix_s5k5e8_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_hfr_90fps.so:system/vendor/lib/libchromatix_s5k5e8_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_video_hd.so:system/vendor/lib/libchromatix_s5k5e8_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e8_zsl.so:system/vendor/lib/libchromatix_s5k5e8_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_sp2508_common.so:system/vendor/lib/libchromatix_sp2508_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_sp2508_default_video.so:system/vendor/lib/libchromatix_sp2508_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_gc2355_8916_common.so:system/vendor/lib64/libchromatix_gc2355_8916_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_gc2355_8916_default_video.so:system/vendor/lib64/libchromatix_gc2355_8916_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_gc2355_8916_preview.so:system/vendor/lib64/libchromatix_gc2355_8916_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_common.so:system/vendor/lib64/libchromatix_imx219_q8n13a_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_default_video.so:system/vendor/lib64/libchromatix_imx219_q8n13a_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib64/libchromatix_imx219_q8n13a_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib64/libchromatix_imx219_q8n13a_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib64/libchromatix_imx219_q8n13a_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov13850_default_video.so:system/vendor/lib64/libchromatix_ov13850_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov13853_q13853a_default_video.so:system/vendor/lib64/libchromatix_ov13853_q13853a_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_common.so:system/vendor/lib64/libchromatix_ov8858_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_default_video.so:system/vendor/lib64/libchromatix_ov8858_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_120fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_hfr_60fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_60fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_hfr_90fps.so:system/vendor/lib64/libchromatix_ov8858_hfr_90fps.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_liveshot.so:system/vendor/lib64/libchromatix_ov8858_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_preview.so:system/vendor/lib64/libchromatix_ov8858_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_ov8858_snapshot.so:system/vendor/lib64/libchromatix_ov8858_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_sp2508_common.so:system/vendor/lib64/libchromatix_sp2508_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_sp2508_default_video.so:system/vendor/lib64/libchromatix_sp2508_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_sp2508_preview.so:system/vendor/lib64/libchromatix_sp2508_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libchromatix_sp2508_snapshot.so:system/vendor/lib64/libchromatix_sp2508_snapshot.so
