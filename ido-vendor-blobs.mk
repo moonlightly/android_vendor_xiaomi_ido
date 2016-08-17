@@ -55,6 +55,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
+    $(LOCAL_PATH)/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    $(LOCAL_PATH)/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    $(LOCAL_PATH)/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     $(LOCAL_PATH)/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
