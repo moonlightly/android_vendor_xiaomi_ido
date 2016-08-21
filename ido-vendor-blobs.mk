@@ -3,13 +3,7 @@ LOCAL_PATH := $(LOCAL_PATH)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
-    $(LOCAL_PATH)/proprietary/bin/fmconfig:system/bin/fmconfig \
-    $(LOCAL_PATH)/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    $(LOCAL_PATH)/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    $(LOCAL_PATH)/proprietary/bin/imscmservice:system/bin/imscmservice \
-    $(LOCAL_PATH)/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    $(LOCAL_PATH)/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
     $(LOCAL_PATH)/proprietary/bin/location-mq:system/bin/location-mq \
     $(LOCAL_PATH)/proprietary/bin/lowi-server:system/bin/lowi-server \
@@ -17,10 +11,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
-    $(LOCAL_PATH)/proprietary/bin/nl_listener:system/bin/nl_listener \
     $(LOCAL_PATH)/proprietary/bin/pm-service:system/bin/pm-service \
-    $(LOCAL_PATH)/proprietary/bin/port-bridge:system/bin/port-bridge \
-    $(LOCAL_PATH)/proprietary/bin/qcom-system-daemon:system/bin/qcom-system-daemon \
     $(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
     $(LOCAL_PATH)/proprietary/bin/qemud:system/bin/qemud \
     $(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -31,32 +22,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/SensorCali:system/bin/SensorCali \
     $(LOCAL_PATH)/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
-    $(LOCAL_PATH)/proprietary/bin/usb_uicc_client:system/bin/usb_uicc_client \
-    $(LOCAL_PATH)/proprietary/bin/usbhub:system/bin/usbhub \
-    $(LOCAL_PATH)/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    $(LOCAL_PATH)/proprietary/bin/vm_bms:system/bin/vm_bms \
     $(LOCAL_PATH)/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     $(LOCAL_PATH)/proprietary/bin/wfdservice:system/bin/wfdservice \
     $(LOCAL_PATH)/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     $(LOCAL_PATH)/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    $(LOCAL_PATH)/proprietary/etc/hcidump.sh:system/etc/hcidump.sh \
     $(LOCAL_PATH)/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.debug.sh:system/etc/init.qcom.debug.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.efs.sync.sh:system/etc/init.qcom.efs.sync.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.fm.sh:system/etc/init.qcom.fm.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.sdio.sh:system/etc/init.qcom.sdio.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.uicc.sh:system/etc/init.qcom.uicc.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.wifi.sh:system/etc/init.qcom.wifi.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qcom.zram.sh:system/etc/init.qcom.zram.sh \
-    $(LOCAL_PATH)/proprietary/etc/init.qti.ims.sh:system/etc/init.qti.ims.sh \
     $(LOCAL_PATH)/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     $(LOCAL_PATH)/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     $(LOCAL_PATH)/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
-    $(LOCAL_PATH)/proprietary/etc/qca6234-service.sh:system/etc/qca6234-service.sh \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
     $(LOCAL_PATH)/proprietary/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
