@@ -127,7 +127,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     $(LOCAL_PATH)/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     $(LOCAL_PATH)/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
