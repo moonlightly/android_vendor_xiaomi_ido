@@ -107,9 +107,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     $(LOCAL_PATH)/proprietary/lib/fpc_fingerprint_hal.so:system/lib/fpc_fingerprint_hal.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    $(LOCAL_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
@@ -118,9 +116,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     $(LOCAL_PATH)/proprietary/lib64/fpc_fingerprint_hal.so:system/lib64/fpc_fingerprint_hal.so \
     $(LOCAL_PATH)/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    $(LOCAL_PATH)/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     $(LOCAL_PATH)/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    $(LOCAL_PATH)/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     $(LOCAL_PATH)/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
