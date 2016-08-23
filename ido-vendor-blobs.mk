@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     $(LOCAL_PATH)/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
+    $(LOCAL_PATH)/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
