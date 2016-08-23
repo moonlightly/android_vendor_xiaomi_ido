@@ -5,6 +5,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
+    $(LOCAL_PATH)/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     $(LOCAL_PATH)/proprietary/bin/location-mq:system/bin/location-mq \
     $(LOCAL_PATH)/proprietary/bin/lowi-server:system/bin/lowi-server \
     $(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
