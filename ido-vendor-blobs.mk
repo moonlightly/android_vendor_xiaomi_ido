@@ -395,6 +395,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
@@ -404,6 +405,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libextendedremotedisplay.so:system/vendor/lib64/libextendedremotedisplay.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libhandbioalgojni.so:system/vendor/lib64/libhandbioalgojni.so \
