@@ -17,9 +17,15 @@
 # Prebuilt libraries that are needed to build open-source libraries
 
 PRODUCT_PACKAGES += \
-    com.qualcomm.location
-
-PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
     libtime_genoff \
-    TimeService
+    TimeService \
+    CNEService \
+    com.qualcomm.location \
+    dpmserviceapp \
+    qcrilmsgtunnel \
+    qcnvitems \
+    qcrilhook
+
 $(call inherit-product, vendor/xiaomi/ido/ido-vendor-blobs.mk)

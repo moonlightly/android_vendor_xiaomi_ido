@@ -105,19 +105,27 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/cu_mcfg_sw.mbn:system/etc/firmware/modem_config/cu_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/row_mcfg_sw.mbn:system/etc/firmware/modem_config/row_mcfg_sw.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/modem_config/ytl_mcfg_sw.mbn:system/etc/firmware/modem_config/ytl_mcfg_sw.mbn \
+    $(LOCAL_PATH)/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    $(LOCAL_PATH)/proprietary/lib/fpc_fingerprint_hal.so:system/lib/fpc_fingerprint_hal.so \
-    $(LOCAL_PATH)/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    $(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    $(LOCAL_PATH)/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    $(LOCAL_PATH)/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    $(LOCAL_PATH)/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    $(LOCAL_PATH)/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    $(LOCAL_PATH)/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    $(LOCAL_PATH)/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     $(LOCAL_PATH)/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
     $(LOCAL_PATH)/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     $(LOCAL_PATH)/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     $(LOCAL_PATH)/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
-    $(LOCAL_PATH)/proprietary/lib64/fpc_fingerprint_hal.so:system/lib64/fpc_fingerprint_hal.so \
-    $(LOCAL_PATH)/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    $(LOCAL_PATH)/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     $(LOCAL_PATH)/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinyxml2.so:system/lib64/libtinyxml2.so \
     $(LOCAL_PATH)/proprietary/lib64/libwcnss_qmi.so:system/lib64/libwcnss_qmi.so \
@@ -127,7 +135,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     $(LOCAL_PATH)/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     $(LOCAL_PATH)/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    $(LOCAL_PATH)/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     $(LOCAL_PATH)/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b00:system/vendor/firmware/keymaste.b00 \
     $(LOCAL_PATH)/proprietary/vendor/firmware/keymaste.b01:system/vendor/firmware/keymaste.b01 \
@@ -412,6 +420,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libloc_ext.so:system/vendor/lib64/libloc_ext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
