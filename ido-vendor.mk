@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libtime_genoff \
     TimeService \
-    shutdownlistener \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
