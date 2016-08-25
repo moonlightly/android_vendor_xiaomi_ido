@@ -352,20 +352,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvt_engine.so:system/vendor/lib/libvt_engine.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdmmsrc.so:system/vendor/lib/libwfdmmsrc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdmmutils.so:system/vendor/lib/libwfdmmutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdnative.so:system/vendor/lib/libwfdnative.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdrtsp.so:system/vendor/lib/libwfdrtsp.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdservice.so:system/vendor/lib/libwfdservice.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfdsm.so:system/vendor/lib/libwfdsm.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcinterface.so:system/vendor/lib/libwfduibcinterface.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsink.so:system/vendor/lib/libwfduibcsink.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsinkinterface.so:system/vendor/lib/libwfduibcsinkinterface.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsrc.so:system/vendor/lib/libwfduibcsrc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -373,8 +359,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -393,7 +377,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
@@ -462,6 +449,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/librpmb.so:system/vendor/lib64/librpmb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
@@ -491,26 +479,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libwbc_jni.so:system/vendor/lib64/libwbc_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdcommonutils.so:system/vendor/lib64/libwfdcommonutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdhdcpcp.so:system/vendor/lib64/libwfdhdcpcp.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdmmsink.so:system/vendor/lib64/libwfdmmsink.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdmmsrc.so:system/vendor/lib64/libwfdmmsrc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdmmutils.so:system/vendor/lib64/libwfdmmutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdnative.so:system/vendor/lib64/libwfdnative.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdrtsp.so:system/vendor/lib64/libwfdrtsp.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdservice.so:system/vendor/lib64/libwfdservice.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfdsm.so:system/vendor/lib64/libwfdsm.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfduibcinterface.so:system/vendor/lib64/libwfduibcinterface.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfduibcsinkinterface.so:system/vendor/lib64/libwfduibcsinkinterface.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfduibcsink.so:system/vendor/lib64/libwfduibcsink.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfduibcsrcinterface.so:system/vendor/lib64/libwfduibcsrcinterface.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwfduibcsrc.so:system/vendor/lib64/libwfduibcsrc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libxt_native.so:system/vendor/lib64/libxt_native.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libxtwifi_zpp_adaptor.so:system/vendor/lib64/libxtwifi_zpp_adaptor.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:system/vendor/lib64/egl/libESXEGL_adreno.so \
