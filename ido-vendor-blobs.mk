@@ -6,8 +6,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
     $(LOCAL_PATH)/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    $(LOCAL_PATH)/proprietary/bin/location-mq:system/bin/location-mq \
-    $(LOCAL_PATH)/proprietary/bin/lowi-server:system/bin/lowi-server \
     $(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
@@ -192,6 +190,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcsvt_jni.so:system/vendor/lib/libcsvt_jni.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
@@ -209,6 +208,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhbtparm.so:system/vendor/lib/libhbtparm.so \
