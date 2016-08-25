@@ -18,13 +18,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rfs_access:system/bin/rfs_access \
     $(LOCAL_PATH)/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    $(LOCAL_PATH)/proprietary/bin/SensorCali:system/bin/SensorCali \
-    $(LOCAL_PATH)/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
-    $(LOCAL_PATH)/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
-    $(LOCAL_PATH)/proprietary/bin/wfdservice:system/bin/wfdservice \
-    $(LOCAL_PATH)/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    $(LOCAL_PATH)/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     $(LOCAL_PATH)/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.audio.sh:system/etc/init.qcom.audio.sh \
     $(LOCAL_PATH)/proprietary/etc/init.qcom.bt.sh:system/etc/init.qcom.bt.sh \
