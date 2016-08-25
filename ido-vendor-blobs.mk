@@ -345,7 +345,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvt_engine.so:system/vendor/lib/libvt_engine.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libwbc_jni.so:system/vendor/lib/libwbc_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -472,7 +471,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libwbc_jni.so:system/vendor/lib64/libwbc_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
