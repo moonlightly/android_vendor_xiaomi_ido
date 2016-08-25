@@ -4,19 +4,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    $(LOCAL_PATH)/proprietary/bin/cnd:system/bin/cnd \
+    $(LOCAL_PATH)/proprietary/bin/dpmd:system/bin/dpmd \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
     $(LOCAL_PATH)/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     $(LOCAL_PATH)/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     $(LOCAL_PATH)/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     $(LOCAL_PATH)/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     $(LOCAL_PATH)/proprietary/bin/netmgrd:system/bin/netmgrd \
-    $(LOCAL_PATH)/proprietary/bin/pm-service:system/bin/pm-service \
     $(LOCAL_PATH)/proprietary/bin/qmuxd:system/bin/qmuxd \
-    $(LOCAL_PATH)/proprietary/bin/qemud:system/bin/qemud \
     $(LOCAL_PATH)/proprietary/bin/qseecomd:system/bin/qseecomd \
     $(LOCAL_PATH)/proprietary/bin/radish:system/bin/radish \
     $(LOCAL_PATH)/proprietary/bin/rfs_access:system/bin/rfs_access \
-    $(LOCAL_PATH)/proprietary/bin/rmnetcli:system/bin/rmnetcli \
     $(LOCAL_PATH)/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(LOCAL_PATH)/proprietary/etc/hsic.control.bt.sh:system/etc/hsic.control.bt.sh \
